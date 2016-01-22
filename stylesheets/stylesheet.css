@@ -4,16 +4,20 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #606c71; }
-
+  font-family: raleway;
+  font-size: 10px;
+  /*line-height: 1;*/
+  color: black; }
+.tagline {
+  font-size: 17px;
+}
 a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
     text-decoration: underline; }
+
+
 
 .btn {
   display: inline-block;
@@ -56,8 +60,9 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  /*background-color: #159957;*/
+  background-image: linear-gradient(120deg, red, steelblue); }
+
 
 @media screen and (min-width: 64em) {
   .page-header {
